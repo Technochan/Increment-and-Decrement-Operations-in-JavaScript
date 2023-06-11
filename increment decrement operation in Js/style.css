@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(188, 209, 209);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 50px;
+    gap: 10px;
+
+}
+
+.container .b1{
+    background-color: blue;
+    cursor: pointer;
+}
+
+#answer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 20px;
+}
+
+.container .b2{
+    background-color: rgb(14, 194, 59);
+    cursor: pointer;
+}
+
+.b3{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 650px;
+    background-color: rgb(233, 26, 11);
+    cursor: pointer;
+}
+
