@@ -4,12 +4,14 @@ function totalClick(value) {
             answer.innerText = sum;   
             
             // if you want decrement value in minus format please comment the first if function
-            if (sum < 0) {
-            answer.innerText = 0;
+            if (sum < 0) 
+            {
+               answer.innerText = 0;
             }
 
-            if(value === 0) {
-            answer.innerText = 0;
+            if(value === 0) 
+            {
+               answer.innerText = 0;
             }
         }
              
